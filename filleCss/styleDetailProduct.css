@@ -1,0 +1,125 @@
+.main{
+	background-color: #f0f2f5;
+	padding: 40px;
+}
+.content-image-left{
+	width: 450px;	
+}
+.big-img{
+	width: 100%;
+}
+.big-img img{
+	width: 100%;
+}
+.content-small-image{
+	max-width: 15%;
+}
+.content-small-image .small-img{
+	width: 100%;
+	margin-bottom: 20px;
+}
+.content-small-image .small-img img{
+	width: 100%;
+}
+.price-product{
+	margin-top: 40px;
+}
+.text-font{
+	font-size: 30px;
+}
+
+.card .image{
+	position: relative;
+}
+.hover{
+	opacity: 0;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+.hover .btn{
+	width: 130px;
+	font-size: 12px;
+	margin-bottom: 8px;
+}
+.card{
+	margin-bottom: 20px;
+}
+.card .image:hover img{
+	opacity: 0.5;
+}
+.card .image:hover .hover{
+	opacity: 1;
+	background-color: rgb(230, 204, 204, .0);
+	border-radius: 6px;
+}
+.title-new-product{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin: 40px 0;
+}
+.card-body{
+	padding: 8px;
+}
+.card-text{
+	padding: 4px;
+}
+
+.number-product{
+	display: flex;
+	align-items: center;
+	margin-bottom: 16px;
+}
+
+.number-product div:first-child p{
+	padding: 0;
+	margin: 0;
+}
+
+.buttons_added {
+	opacity:1;
+	display:inline-block;
+	display:-ms-inline-flexbox;
+	display:inline-flex;
+	white-space:nowrap;
+	vertical-align:top;
+}
+.is-form {
+	overflow:hidden;
+	position:relative;
+	background-color:#f9f9f9;
+	height:2.2rem;
+	width:1.9rem;
+	padding:0;
+	text-shadow:1px 1px 1px #fff;
+	border:1px solid #ddd;
+}
+.is-form:focus,.input-text:focus {
+	outline:none;
+}
+.is-form.minus {
+	border-radius:4px 0 0 4px;
+}
+.is-form.plus {
+	border-radius:0 4px 4px 0;
+}
+.input-qty {
+	background-color:#fff;
+	height:2.2rem;
+	text-align:center;
+	font-size:1rem;
+	display:inline-block;
+	vertical-align:top;
+	margin:0;
+	border-top:1px solid #ddd;
+	border-bottom:1px solid #ddd;
+	border-left:0;
+	border-right:0;
+	padding:0;
+}
+.input-qty::-webkit-outer-spin-button,.input-qty::-webkit-inner-spin-button {
+	-webkit-appearance:none;
+	margin:0;
+}

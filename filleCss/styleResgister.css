@@ -1,0 +1,30 @@
+.mainLogin{
+	background-color: #f0f2f5;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 30px 0;
+}
+.fromLogin{
+	padding: 20px 50px;
+	width: 40%;
+	background-color: #fff;
+	border-radius: 6px;
+}
+.icon-user{
+	border-radius: 50%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.icon-user img{
+	width: auto;
+	height:100px;
+	border-radius: 50%;
+}
+.form-group{
+	margin-bottom: 0;
+}
+.text-muted{
+	color: red !important;
+}

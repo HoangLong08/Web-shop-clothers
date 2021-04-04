@@ -1,0 +1,56 @@
+.content-main{
+	padding: 40px;
+}
+.row h4{
+	margin-bottom: 20px;
+}
+tr, th{
+	font-size: 14px;
+}
+.email-phone{
+	display: flex;
+	width: 100%;
+	align-items: center;
+	
+}
+.email-phone input{
+	width: 100%;
+}
+.email-left{
+	width: 100%;
+	margin-right: 20px;
+}
+.phone-right{
+	width: 100%;
+}
+.city-district{
+	display: flex;
+	width: 100%;
+	align-items: center;
+}
+.city-left{
+	width: 100%;
+	margin-right: 20px;
+}
+.district-right{
+	width: 100%;
+}
+.info-shop-cart{
+	margin-bottom: 20px;
+}
+h4 span{
+	border-radius: 50%;
+	background: #f48473;
+	color: #fff;
+	padding: 5px 12px;
+	font-size: 18px;
+}
+/* .paymentBank{
+	position: relative;
+} */
+.show-text{
+	/* position: absolute; */
+	display: none;
+	padding: 0 15px;
+	/* top: 30px; */
+}
